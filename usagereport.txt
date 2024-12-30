@@ -1,0 +1,110 @@
+[
+  {
+    "source": "The User should launch the application",
+    "steps": [
+      {
+        "name": "The User should launch the application",
+        "aggregatedDurations": {
+          "median": 0.0013135,
+          "average": 0.001313500
+        },
+        "durations": [
+          {
+            "duration": 0.0013135,
+            "location": "file:src/test/resources/Feature/loginWithDataTable.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on the sign-in button",
+    "steps": [
+      {
+        "name": "User clicks on the sign-in button",
+        "aggregatedDurations": {
+          "median": 3.6044641,
+          "average": 3.604464100
+        },
+        "durations": [
+          {
+            "duration": 3.6044641,
+            "location": "file:src/test/resources/Feature/loginWithDataTable.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on the Sign-in again",
+    "steps": [
+      {
+        "name": "User clicks on the Sign-in again",
+        "aggregatedDurations": {
+          "median": 2.2407847,
+          "average": 2.240784700
+        },
+        "durations": [
+          {
+            "duration": 2.2407847,
+            "location": "file:src/test/resources/Feature/loginWithDataTable.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User enters the username and password by using withHeader twoD",
+    "steps": [
+      {
+        "name": "User enters the username and password by using withHeader twoD",
+        "aggregatedDurations": {
+          "median": 2.2529212,
+          "average": 2.252921200
+        },
+        "durations": [
+          {
+            "duration": 2.2529212,
+            "location": "file:src/test/resources/Feature/loginWithDataTable.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User clicks on login button in sign-account page",
+    "steps": [
+      {
+        "name": "User clicks on login button in sign-account page",
+        "aggregatedDurations": {
+          "median": 0.0000478,
+          "average": 0.000047800
+        },
+        "durations": [
+          {
+            "duration": 0.0000478,
+            "location": "file:src/test/resources/Feature/loginWithDataTable.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User get into the application {string}",
+    "steps": [
+      {
+        "name": "User get into the application \"using withHeader twoD\"",
+        "aggregatedDurations": {
+          "median": 0.9858639,
+          "average": 0.985863900
+        },
+        "durations": [
+          {
+            "duration": 0.9858639,
+            "location": "file:src/test/resources/Feature/loginWithDataTable.feature:26"
+          }
+        ]
+      }
+    ]
+  }
+]

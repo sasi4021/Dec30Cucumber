@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3278400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The User should launch the application",
+            "match": {
+              "location": "StepsLoginWithDataTable.the_User_should_launch_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-12-30T12:19:58.813Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19222752800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeClass()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TO validate the application - With Header 1D",
+        "description": "",
+        "id": "to-validate-the-login-by-using-data-table;to-validate-the-application---with-header-1d",
+        "after": [
+          {
+            "result": {
+              "duration": 176100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3245027600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on the sign-in button",
+            "match": {
+              "location": "StepsLoginWithDataTable.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2846882500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on the Sign-in again",
+            "match": {
+              "location": "StepsLoginWithDataTable.user_clicks_on_the_Sign_in_again()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2695049900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the username and password by using withHeader oneD",
+            "match": {
+              "location": "StepsLoginWithDataTable.user_enters_the_username_and_password_by_using_withHeader_oneD(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "sasi"
+                ]
+              },
+              {
+                "cells": [
+                  "password",
+                  "sasi1234"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1226400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on login button in sign-account page",
+            "match": {
+              "location": "StepsLoginWithDataTable.user_clicks_on_login_button_in_sign_account_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1027993200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User get into the application \"using withHeader oneD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"using withHeader oneD\"",
+                  "offset": 30
+                }
+              ],
+              "location": "StepsLoginWithDataTable.user_get_into_the_application(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "TO validate the login by using Data Table",
+    "description": "",
+    "id": "to-validate-the-login-by-using-data-table",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/loginWithDataTable.feature",
+    "tags": []
+  }
+]

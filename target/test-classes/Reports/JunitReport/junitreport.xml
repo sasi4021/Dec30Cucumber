@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.171139">
+<testcase classname="TO validate the login by using Data Table" name="TO validate the application - With Header 1D" time="29.171139">
+<system-out><![CDATA[Given The User should launch the application................................passed
+When User clicks on the sign-in button......................................passed
+And User clicks on the Sign-in again........................................passed
+And User enters the username and password by using withHeader oneD..........passed
+And User clicks on login button in sign-account page........................passed
+Then User get into the application "using withHeader oneD"..................passed
+]]></system-out>
+</testcase>
+</testsuite>
