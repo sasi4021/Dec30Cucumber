@@ -26,7 +26,7 @@ public class JVMReport  {
 		
 		r.generateReports();
 			
-		
+		System.out.println("DONE");
 	}
 	
 	
