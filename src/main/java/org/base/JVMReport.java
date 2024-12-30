@@ -25,6 +25,8 @@ public class JVMReport  {
 		ReportBuilder r = new ReportBuilder(jsonFiles, con);
 		
 		r.generateReports();
+		
+		System.out.println("hello");
 			
 		System.out.println("DONE");
 	}
