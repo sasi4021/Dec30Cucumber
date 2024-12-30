@@ -29,6 +29,10 @@ public class JVMReport  {
 		System.out.println("hello");
 			
 		System.out.println("DONE");
+		System.out.println("DONE!");
+		System.out.println("DONE2");
+		System.out.println("DONE2");
+		System.out.println("DONE2");
 	}
 	
 	
